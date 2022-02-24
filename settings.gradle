@@ -1,4 +1,3 @@
 rootProject.name = 'application-continuum-boilerplate'
 
-include ':applications:application-demo', ':components:module-demo'
 
