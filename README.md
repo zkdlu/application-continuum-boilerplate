@@ -61,7 +61,5 @@ echo "Downloading.. $BRANCH .. $NAME "
 
 git clone -b "$BRANCH" git@github.com:zkdlu/application-continuum-boilerplate.git "$NAME"
 
-cd $NAME
-
-git remote remove origin
+cd "$NAME" && git remote remove origin && git branch master && git checkout master
 ```
