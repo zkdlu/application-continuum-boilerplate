@@ -142,3 +142,5 @@ Temporary Items
 .apdisk
 
 /.idea/
+/applications/app-front/node_modules/
+/applications/app-front/package-lock.json
